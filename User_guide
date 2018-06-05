@@ -1,15 +1,33 @@
-User Instructions 
+USER GUIDE
 
 Last Update: June 5, 2018 
 
-This public repository contains a user-guided tool for semi-automated cerebral microbleed detection and volume segmentation. The algorithm was developed by Dr. Janine Lupo's group in the Department of Radiology and Biomedical Imaging at the University of California San Francisco. 
+This public repository contains a user-guided tool for semi-automated cerebral microbleed detection and volume segmentation.
+The algorithm was developed by Dr. Janine Lupo's group in the Department of Radiology and Biomedical Imaging at the University of California San Francisco. 
 
-Contributors: 
+CONTRIBUTORS:
 Wei Bian, Melanie A. Morrison, Xiaowei Zhu 
 Sivakami Avadiappan, Yicheng Chen, Seyedmehdi Payabvash, Mihir Shah, Christopher. P. Hess, Janine M. Lupo 
 
+REVELANT PUBLICATIONS:
+Bian et al. 2013 NeuroImage:Clinical 2:282–290 - describes original detection algorithm 
+Morrison et al. 2018 (submitted work) - describes updates to Bian et al. *current verison of algorithm available*
 
-Bian et al. 2013 NeuroImage:Clinical 2:282–290
+------------------------------------------------------------------------------------------------------------------------------
 
+DESCRIPTION: 
 
+The algorithm intiates with a Fast Radial Symmetry Transform to detect all putative CMB candidates ....
+........
+
+FORMAT(s): 1) compiled MATLAB executable file 
+           2) .m script file; MATLAB Version R2017b
+
+INPUT: The algorithm accepts a single, non-projected volumetric T2*-weighted or SWI dataset. 
+
+USAGE: Run the compiler.
+       Window will pop up with..
+       Results with be automatically generated in ...
+
+TEST SET: The test set includes 10 brain tumor dataset with radiotherapy-induced cerebral microbleed. Five were acquired on a 3T GE system (P01-P05), the other 5 were acquired on a 7T GE system (P06-P10).
 
