@@ -16,12 +16,15 @@ Morrison et al. 2018 (submitted work) - outlines updates made to Bian et al. *la
 ------------------------------------------------------------------------------------------------------------------------------
 
 DESCRIPTION: 
-The algorithm intiates with a Fast Radial Symmetry Transform to detect all putative CMB candidates.  ....
-........
+The algorithm intiates with a Fast Radial Symmetry Transform to detect and locate the centers of all putative CMB candidates (note: the transform has been modified to detect dark lesion on a bright background). Each candidate then undergoes region growing, and hand-crafted features (e.g. circularity, size, centroid shift) are used to descriminate true CMBs from false positives. While this removes many false positives, a handful still remain at this stage.
+The remaining candidates are then segmented using a local thresholding technique to quantify individual volumes, and further classify CMBs into one of three categories: 1) A CMB belonging to a single slice, 2) A traveling CMB, or otherwise 3) A possible true CMB or hard mimic. These categories will aid the user in classifying the candidate CMBs in the next step, and of interest with respect to reporting CMB characteristics.
+In the final step, the user is visually presented, one-by-one, with a candidate CMB (and a description of the category they fall under), and asked to classify the candidate as a true CMB or false positive using 'y' and 'n' keyboard responses. The user can also use scrolling to move through the image slices and/or zoom by clicking and simultaneously dragging the mouse upward or downward.
 
 FORMAT(s): compiled MATLAB executable file 
+TOOLBOXs: MATLAB NIFTI toolbox, MATLAB IMAGINE image viewer
 
 INPUT: The algorithm accepts a single, non-projected volumetric T2*-weighted or SWI dataset in NIFTI format (.nii). 
+OUTPUT: Primary outputs include a binary mask of individual CMB candidates, a false positive mask, and a text file outlining the results. 
 
 USAGE: Run the compiler.
        Window will pop up with..
