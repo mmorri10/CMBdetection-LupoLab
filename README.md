@@ -42,7 +42,8 @@ h) result_[rootName].txt – a text file containing all cmb counts and cmb volum
    
 
 # USAGE: 
-cmb_detection(<input file>,<path to cmb_threshold parameter file>,<diagnostics flag>, <semi-automatic detection flag>);
+cmb_detection(input file,path to cmb_threshold parameter file,diagnostics flag,semi-automatic detection flag);
+
 e.g. 
 cmb_detection(‘test_swi.nii’, ‘/yourPath/cmb_detection_2018_nifti_protected’, ‘diagoff’, ‘semion’);
 
