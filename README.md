@@ -39,6 +39,8 @@ g)  nonproj_cmbseg_v5_thresdeg2x5false_positives[rootName].nii – all cmb candi
 
 h) result_[rootName].txt – a text file containing all cmb counts and cmb volumes
    
+# FORMAT: 
+MATLAB Protected Files 
 
 # USAGE: 
 cmb_detection('input file','path to cmb_threshold parameter file in directory','diagnostics flag','semi-automatic detection flag');
