@@ -58,7 +58,7 @@ Note: Please use MATLAB version(s) R2017+ for full functionality (i.e. slice scr
 The algorithm was optimized on a 7T SWI dataset acquired from 10 adult brain tumor patients with radiological evidence of CMBs following radiation therapy. The overall sensitivity is 86.7%. Performance measures will vary with user classification outcomes.
 
 # TEST SET: 
-A test set has been included in this repository. This includes 10 SWI dataset with radiotherapy-induced cerebral microbleed. Five were acquired on a 3T GE system (P01-P05), the other 5 were acquired on a 7T GE system (P06-P10).
+A test set has been included in this repository. This includes 10 SWI datasets with radiotherapy-induced cerebral microbleed. Five were acquired on a 3T GE system (P01-P05), the other 5 were acquired on a 7T GE system (P06-P10).
 
 # USER SUPPORT:
 Melanie A. Morrison 
