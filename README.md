@@ -9,8 +9,7 @@ The remaining candidates are then segmented using a local thresholding technique
 In the final step, the user is visually presented, one-by-one, with a candidate CMB (and a description of the category they fall under), and asked to classify the candidate as a true CMB or false positive using 'y' and 'n' keyboard responses. The user can also use scrolling to move through the image slices and/or zoom by clicking and simultaneously dragging the mouse upward or downward.
 
 # AUTHORS/CONTRIBUTORS:
-Wei Bian, Melanie A. Morrison, Xiaowei Zhu 
-Sivakami Avadiappan, Yicheng Chen, Seyedmehdi Payabvash, Mihir Shah, Christopher. P. Hess, Janine M. Lupo 
+Wei Bian, Melanie A. Morrison, Xiaowei Zhu, Sivakami Avadiappan, Yicheng Chen, Seyedmehdi Payabvash, Mihir Shah, Christopher. P. Hess, Janine M. Lupo 
 
 # REVELANT PUBLICATIONS:
 Bian et al. 2013 NeuroImage:Clinical 2:282–290 - describes original detection algorithm 
