@@ -42,12 +42,13 @@ h) result_[rootName].txt – a text file containing all cmb counts and cmb volum
    
 
 # USAGE: 
-cmb_detection(input file,path to cmb_threshold parameter file,diagnostics flag,semi-automatic detection flag);
+cmb_detection('input file','path to cmb_threshold parameter file in directory','diagnostics flag','semi-automatic detection flag');
 
 e.g. 
 cmb_detection(‘test_swi.nii’, ‘/yourPath/cmb_detection_2018_nifti_protected’, ‘diagoff’, ‘semion’);
 
 *When diagoff, the script runs faster and does not produce intermediate files for optimization purposes.
+
 *When semion, the user-guided classification is enabled.
 
 Note: Please use MATLAB version(s) R2017+ for full functionality (i.e. slice scroll, window zoom) of the user-guided GUI. 
