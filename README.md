@@ -14,7 +14,7 @@ Melanie A Morrison, Seyedmehdi Payabvash, Yicheng Chen, Sivakami Avadiappan, Mih
 # REVELANT PUBLICATIONS:
 Bian et al. 2013 NeuroImage:Clinical 2:282–290 - describes original detection algorithm 
 
-Morrison et al. 2018 NeuroImage:Clinical 20:498-505 - extension of Bian et al. to a user-guided tool with segementation capabilities *latest version of algorithm*
+Morrison et al. 2018 NeuroImage:Clinical 20:498-505 - extension of Bian et al. to a user-guided tool with segmentation capabilities *latest version of algorithm*
 
 # INPUT: 
 The algorithm accepts a single, non-projected volumetric T2*-weighted or SWI dataset in NIFTI format (.nii). 
