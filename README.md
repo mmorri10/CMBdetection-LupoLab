@@ -11,10 +11,9 @@ In the final step, the user is visually presented, one-by-one, with a candidate 
 # AUTHORS/CONTRIBUTORS:
 Melanie A Morrison, Seyedmehdi Payabvash, Yicheng Chen, Sivakami Avadiappan, Mihir Shah, Xiaowei Zou, Christopher P Hess, Janine M Lupo
 
-
-
 # REVELANT PUBLICATIONS:
 Bian et al. 2013 NeuroImage:Clinical 2:282–290 - describes original detection algorithm 
+
 Morrison et al. 2018 NeuroImage:Clinical 20:498-505 - extension of Bian et al. to a user-guided tool with segementation capabilities *latest version of algorithm*
 
 # INPUT: 
